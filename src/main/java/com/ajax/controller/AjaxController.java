@@ -131,5 +131,13 @@ public ResponseEntity  ex10(@RequestBody AjaxDTO ajaxDTO) {
 	return new ResponseEntity<>(dtoList, HttpStatus.OK);
 //	return new ResponseEntity<>(ajaxDTO, HttpStatus.NOT_FOUND);
 }
+	
+	@GetMapping("/ajax")
+	public @ResponseBody Integer ajax(Integer num1 , Integer num2) {
+		
+		return num1 + num2; 
+	}
+	
+	
 
 }
