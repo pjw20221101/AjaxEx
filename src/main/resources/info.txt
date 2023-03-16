@@ -54,7 +54,8 @@ https://url.kr/u86s1c
  DB 명 : movieDB
  Object => JSON 포멧으로 전송 ==>  movie 테이블에 값을 저장 
  Ajax로 서버로 /movie/put 으로 요청을 보내고    
- 	DTO ===> Entity ==> Repositoy ==> DB Table  : H2DB를 사용해서 저장 
+ Ajax ==> controller ==> DTO ===>service => Entity ==> Repositoy ==> DB Table  
+ 	: H2DB를 사용해서 저장 
  	
 
  	
